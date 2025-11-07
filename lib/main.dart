@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:to_do_app/pages/home_page.dart';
+import 'package:to_do_app/pages/splash_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -94,7 +95,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
 
-      home: const HomePage(),
+      home: const SplashScreen(),
     );
   }
 }
